@@ -73,33 +73,36 @@
     </h5>
         <div class="form-field">
             <label for="name">Имя</label>
-            <input class="eee" type="text" name="name" id="name" autofocus  /><svg class="person" width="18px" height="18px">
+            <input class="form-input"  type="text" name="name" id="name" autofocus  /><svg class="icon-input" width="18px" height="18px">
                 <use href="./img/symbol-defs.svg#icon-person-black"></use>
             </svg>
         </div>
         
         <div class="form-field">
             <label for="tel">Телефон</label>
-            <input type="text" name="tel" id="tel" autocomplete="off"><svg class="person" width="18px" height="18px">
+            <input class="form-input" type="text" name="tel" id="tel" autocomplete="off"><svg class="icon-input" width="18px" height="18px">
                 <use href="./img/symbol-defs.svg#icon-phone-black"></use>
             </svg>
         </div>
         
         <div class="form-field">
             <label for="mail">Почта</label>
-            <input type="email" name="mail" id="mail"><svg class="person" width="18px" height="18px">
+            <input class="form-input" type="email" name="mail" id="mail"><svg class="icon-input" width="18px" height="18px">
                 <use href="./img/symbol-defs.svg#icon-email-black"></use>
             </svg>
         </div>
         <div class="form-coment">
-            <label for="comment">Комментарий</label>
-            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Введите текст" class="text-area"></textarea>
+            <textarea  name="comment" id="comment" cols="30" rows="10" placeholder="Введите текст" class="text-area"></textarea>
         </div>
         <div class="form-policy">
-            
-            <label for="policy" class="check-label">Соглашаюсь с рассылкой и принимаю </label><a href="" class="policy-link">Условия договора</a>
-            <input type="checkbox" name="policy" id="policy" class="check-input">
-            <span class="check-box"></span>
+            <input  type="checkbox" name="policy" id="policy" >
+            <label for="policy">Соглашаюсь с рассылкой и принимаю </label><a href="" class="contract">Условия договора</a>
+            <span class="policy-input">
+<!--                 
+                <svg class="icon-input" width="18px" height="18px">
+                <use href="./img/symbol-defs.svg#icon-email-black"></use>
+            </svg> -->
+             </span>
         </div>
         
         <button type="submit" class="order-button">Отправить</button>
@@ -482,7 +485,7 @@
                 <li>
                     <label for="name" class="www">Подпишитесь на рассылку</label>
                     <ul>
-                        <li class="mailing">
+                        <li>
 <input type="email" class="qqq" name="name" id="name" autofocus placeholder=" E-mail" />
 
 <button type="submit" class="mail-button" >Подписаться<svg width="24" height="24" class="send">
