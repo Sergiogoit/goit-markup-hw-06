@@ -57,12 +57,65 @@
 
                 <button type=button class="order-button" data-modal-open>Заказать услугу</button>
                 
+
+
+
                 <div class="backdrop is-hidden" data-modal>
+
                     <div class="modal">
                         <p class="non-txt"></p>
-                        <button data-modal-close class="close-button"></button>
+                        <button data-modal-close class="close-button"><svg class="close-icon" width="18px" height="18px">
+                            <use href="./img/symbol-defs.svg#icon-close-black"></use>
+                        </svg></button>
+<form class="speaker-form">
+    <h5 class="collback">
+        Оставьте свои данные, мы вам перезвоним
+    </h5>
+        <div class="form-field">
+            <label for="name">Имя</label>
+            <input class="eee" type="text" name="name" id="name" autofocus  /><svg class="person" width="18px" height="18px">
+                <use href="./img/symbol-defs.svg#icon-person-black"></use>
+            </svg>
+        </div>
+        
+        <div class="form-field">
+            <label for="tel">Телефон</label>
+            <input type="text" name="tel" id="tel" autocomplete="off"><svg class="person" width="18px" height="18px">
+                <use href="./img/symbol-defs.svg#icon-phone-black"></use>
+            </svg>
+        </div>
+        
+        <div class="form-field">
+            <label for="mail">Почта</label>
+            <input type="email" name="mail" id="mail"><svg class="person" width="18px" height="18px">
+                <use href="./img/symbol-defs.svg#icon-email-black"></use>
+            </svg>
+        </div>
+        <div class="form-coment">
+            <label for="comment">Комментарий</label>
+            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Введите текст" class="text-area"></textarea>
+        </div>
+        <div class="form-policy">
+            
+            <label for="policy" class="check-label">Соглашаюсь с рассылкой и принимаю </label><a href="" class="policy-link">Условия договора</a>
+            <input type="checkbox" name="policy" id="policy" class="check-input">
+            <span class="check-box"></span>
+        </div>
+        
+        <button type="submit" class="order-button">Отправить</button>
+
+
+    
+</form>
+
+
                     </div>
                 </div>
+
+            
+            
+            
+            
             </div>
         </section>
      
@@ -368,63 +421,106 @@
 
 <!--Footer box-->
 <footer class="footer">
-    <!-- <div class="container nav-foot"> -->
-    <div class="footer-contact-box">
-        <span class="web-footer">Web<span class="studio-footer">Studio</span></span>
+    <div class="container nav-foot">
+        <div class="footer-contact-box">
+            <span class="web-footer">Web<span class="studio-footer">Studio</span></span>
 
-        <address class="address">
-            <ul class="ul-footer">
-                <li><a href="г.Киев,пр-тЛесиУкраинки,26" class="footer-adress">г. Киев, пр-т Леси Украинки, 26</a>
-                </li>
-                <li><a href="mailto:info@example.com" class="footer-contact">info@example.com</a></li>
-                <li><a href="tel:+380991111111" class="footer-tel">+38 099 111 11 11</a></li>
-            </ul>
-        </address>
-    </div>
-    <div class="footer-contact-icon">
-        <ul class="soc-icon-footer">
-
-            <li>
-                <h4 class="connect">присоединяйтесь</h4>
-
-
-                <!--Список ссылок соцсетей-->
-
-                <ul class="soc-icon-foot">
-                    <li class="soc-link">
-                        <a href="" class="soc-link-footer">
-                            <svg width="20" height="20" class="instagram">
-                                <use href="./img/symbol-defs.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
+            <address class="address">
+                <ul class="ul-footer">
+                    <li><a href="г.Киев,пр-тЛесиУкраинки,26" class="footer-adress">г. Киев, пр-т Леси Украинки, 26</a>
                     </li>
-                    <li class="soc-link">
-                        <a href="" class="soc-link-footer">
-                            <svg width="20" height="20" class="instagram">
-                                <use href="./img/symbol-defs.svg#icon-twitter1"></use>
-                            </svg>
-                        </a>
-                    </li>
-
-                    <li class="soc-link">
-                        <a href="" class="soc-link-footer">
-                            <svg width="20" height="20" class="instagram">
-                                <use href="./img/symbol-defs.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="soc-link">
-                        <a href="" class="soc-link-footer">
-                            <svg width="20" height="20" class="instagram">
-                                <use href="./img/symbol-defs.svg#icon-linkedin"></use>
-                            </svg>
-                        </a>
-                    </li>
+                    <li><a href="mailto:info@example.com" class="footer-contact">info@example.com</a></li>
+                    <li><a href="tel:+380991111111" class="footer-tel">+38 099 111 11 11</a></li>
                 </ul>
-        </ul>
+            </address>
+        </div>
+        <div class="footer-contact-icon">
+            <ul class="soc-icon-footer">
+
+                <li>
+                    <h4 class="connect">присоединяйтесь</h4>
+
+
+                    <!--Список ссылок соцсетей-->
+
+                    <ul class="soc-icon-foot">
+                        <li class="soc-link">
+                            <a href="" class="soc-link-footer">
+                                <svg width="20" height="20" class="instagram">
+                                    <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="soc-link">
+                            <a href="" class="soc-link-footer">
+                                <svg width="20" height="20" class="instagram">
+                                    <use href="./img/symbol-defs.svg#icon-twitter1"></use>
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li class="soc-link">
+                            <a href="" class="soc-link-footer">
+                                <svg width="20" height="20" class="instagram">
+                                    <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="soc-link">
+                            <a href="" class="soc-link-footer">
+                                <svg width="20" height="20" class="instagram">
+                                    <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="mail-form">
+            <ul>
+                <li>
+                    <label for="name" class="www">Подпишитесь на рассылку</label>
+                    <ul>
+                        <li class="mailing">
+<input type="email" class="qqq" name="name" id="name" autofocus placeholder=" E-mail" />
+
+<button type="submit" class="mail-button" >Подписаться<svg width="24" height="24" class="send">
+    <use href="./img/symbol-defs.svg#icon-icon-send"></use>
+</svg></button>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        
+            
+        
+            
+        
+            
+            
+        
+        </div>
     </div>
-    <!-- </div> -->
 </footer>
+
+
+
     <script src="./js/modal.js"></script>
+    <!-- <script>
+        (() => {
+            document
+                .querySelector('.js-speaker-form')
+                .addEventListener('submit', e => {
+                    e.preventDefault();
+
+                    new FormData(e.currentTarget).forEach((value, name) =>
+                        console.log(`${name}: ${value}`),
+                    );
+
+                    e.currentTarget.reset();
+                });
+        })();
+    </script> -->
 </body>
 </html>
