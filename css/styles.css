@@ -1065,11 +1065,17 @@ img {
 }
 .form-input {
   border: none;
+  outline: 1px solid var(--contact-border-color);
+  padding-left: 42px;
+  /* position: absolute; */
+}
+.form-input-check {
+  border: none;
   /* outline: 1px solid var(--contact-border-color); */
   padding-left: 42px;
   /* position: absolute; */
 }
-.form-input:checked + .icon-check {
+.form-input-check:checked + .icon-check {
   /* background-color: turquoise; */
   background-image: url(../img/iconcheck.svg);
   width: 16px;
