@@ -124,14 +124,12 @@ a {
   border-radius: 2px;
   background-color: var(--heder-link-color);
 }
-
 .link-accent:hover::after {
   /* прозрачность */
   opacity: 1;
   /* на сколько растянуться 1 это-100% ширины */
   transform: scaleX(1);
 }
-
 /* Стилизация хедера контакты */
 .tel-link {
   line-height: 1.14;
@@ -153,10 +151,10 @@ a {
   transition: background-color 250ms, cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .contact-icon-envelope {
-  width: 26px;
+  margin-right: 10px;
 }
 .contact-icon-smartphone {
-  width: 20px;
+  margin-right: 10px;
 }
 
 /* Псевдоэлементы ссылок */
@@ -290,7 +288,6 @@ a {
 .qualitie {
   padding-bottom: 0px;
 }
-
 .li-content {
   width: 270px;
 }
@@ -311,7 +308,6 @@ a {
   margin-bottom: 50px;
   text-align: center;
 }
-
 .section-worck .li-worck + .li-worck {
   margin-left: 30px;
 }
@@ -324,7 +320,6 @@ a {
   background-color: var(--worck-card-color);
   transform: translatey(223px);
 }
-
 .section-worck {
   display: flex;
   justify-content: space-between;
@@ -423,38 +418,21 @@ img {
   transition: background-color 250ms, cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .footer-contact-box {
-  width: 231px;
-  height: 132px;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  margin-left: 0;
-  margin-right: 90px;
-}
-.footer-contact-icon {
-  width: 206px;
-  height: 80px;
-  margin-top: 72px;
   margin-right: 70px;
 }
 .footer {
-  /* padding-top: 60px;
-  padding-bottom: 60px; */
-  margin-left: 0;
-  margin-right: 0px;
-  max-width: 1600px;
-  height: 252px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--section1-background-color);
-  display: flex;
-  align-items: baseline;
 }
 .adress {
   width: 231px;
   height: 81px;
   padding-bottom: 60px;
 }
-
 .nav-foot {
   display: flex;
+  align-items: baseline;
 }
 
 /* Вторая страница */
@@ -622,11 +600,6 @@ img {
   width: 206px;
   height: 44px;
   margin-top: 20px;
-  /* margin-right: auto;
-  margin-left: auto;
-  ;
-  margin-bottom: 30px;
-  */
   justify-content: space-between;
 }
 .soc-icon {
@@ -636,9 +609,7 @@ img {
   margin-top: 16px;
   margin-right: auto;
   margin-left: auto;
-
   margin-bottom: 30px;
-
   justify-content: space-between;
 }
 
@@ -646,7 +617,6 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-
   display: flex;
 }
 .instagram {
@@ -671,11 +641,7 @@ img {
 .soc-icon-footer {
   display: flex;
   justify-content: center;
-  /* margin-bottom: 84px;
-  margin-left: -394px;
-  margin-top: -145px; */
 }
-
 .soc-linc-footer:nth-child(4n + 1) {
   margin-left: 0px;
 }
@@ -738,17 +704,13 @@ img {
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   background-color: var(--body-color);
-  /* border: none; */
-  /* border-style: solid; */
   border-color: var(--circle-coloir);
   border-radius: 50%;
   border-width: 1px;
   padding: 0;
-  /* background-image: url("../img/symbol-defs.svg#icon-close-black"); */
   background-repeat: no-repeat;
   background-position: center;
   /* смещение иконки при ховере */
-  /* transform: translateY(-300px); */
   transform: translateX(241px);
   margin-top: 8px;
 }
@@ -765,12 +727,7 @@ img {
   cursor: pointer;
 }
 .mail-form {
-  width: 570px;
-  height: 86px;
-  margin-top: 72px;
-  /* outline: 1px solid red; */
-  /* display: flex;
-  flex-direction: column; */
+  margin-left: auto;
 }
 .input-mail {
   box-sizing: border-box;
@@ -779,10 +736,10 @@ img {
   background-color: var(--section1-background-color);
   padding-left: 15px;
   border-radius: 4px;
-  /* border-color: var(--border-color); */
   border: 1px solid var(--mail-border-color);
   margin-top: 20px;
   margin-right: 8px;
+  color: var(--body-color);
 }
 .mailing {
   font-family: Roboto;
@@ -848,13 +805,10 @@ img {
   left: 50%;
   min-height: 581px;
   min-width: 528px;
-  /* padding: 15px; */
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   background-color: var(--body-color);
-  /* background-color: blue; */
   transform: translate(-50%, -50%) scale(1);
-
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*_____________________________________________ это состояние, когда окно показано */
@@ -863,14 +817,6 @@ img {
   height: 581px;
   padding: 0;
 }
-/* .reg-card {
-  width: 448px;
-  height: 342px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: column;
-} */
 .form-field {
   width: 528px;
   height: 58px;
@@ -880,20 +826,13 @@ img {
   margin-right: 0;
   margin-bottom: 10px;
   text-align: start;
-  /* border: 1px; */
   font-family: Roboto;
   font-style: Regular;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
-  /* outline: 1px solid red; */
   color: var(--txt-color);
 }
-/* .form-field:hover,
-.form-field:focus {
-  fill: #2196f3;
-  transition: background-color 250ms, cubic-bezier(0.4, 0, 0.2, 1) 250ms;
-} */
 .form-box {
   outline: 1px solid var(--contact-border-color);
   width: 448px;
@@ -914,8 +853,6 @@ img {
 
   border: none;
   border-radius: 4px;
-  /* margin-left: 40px; */
-  /* border: 1px solid var(--contact-border-color); */
 }
 
 .form-field label {
@@ -946,13 +883,11 @@ img {
   margin-right: 0;
   margin-bottom: 20px;
   text-align: start;
-  /* outline: 1px solid red; */
   font-family: Roboto;
   font-style: Regular;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
-
   color: var(--txt-color);
 }
 .form-coment input {
@@ -969,7 +904,6 @@ img {
   margin-bottom: 30px;
   display: flex;
   align-items: center;
-  /* outline: 1px solid red; */
   font-family: Roboto;
   font-style: Regular;
   font-size: 14px;
@@ -977,12 +911,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--txt-color);
 }
-/* .form-policy:checked {
-  background-image: url(../img/iconcheck.svg);
-
-  outline: 1px solid tomato;
-} */
-
 .check .terms {
   color: var(--heder-link-color);
   text-decoration: underline;
@@ -1017,17 +945,7 @@ img {
   text-decoration: underline;
   margin-left: 4px;
 }
-
-/* .form-input:hover,
-.form-input:focus {
-  fill: var(--heder-link-color);
-  outline: 1px solid var(--heder-link-color);
-  transition: background-color 250ms, cubic-bezier(0.4, 0, 0.2, 1) 250ms;
-} */
 .icon-input {
-  /* position: absolute;
-  margin-left: 51px;
-  margin-top: 27px; */
   position: absolute;
   margin-left: -436px;
   margin-top: 11px;
@@ -1051,7 +969,6 @@ img {
 .label {
   display: flex;
   align-items: center;
-  /* margin-left: 52px; */
 }
 .icon-check {
   display: inline-block;
@@ -1067,32 +984,18 @@ img {
   border: none;
   outline: 1px solid var(--contact-border-color);
   padding-left: 42px;
-  /* position: absolute; */
 }
 .form-input-check {
   border: none;
-  /* outline: 1px solid var(--contact-border-color); */
+  outline: none;
   padding-left: 42px;
-  /* position: absolute; */
 }
 .form-input-check:checked + .icon-check {
-  /* background-color: turquoise; */
   background-image: url(../img/iconcheck.svg);
   width: 16px;
   height: 15px;
   outline: 2px solid white;
 }
-/* .label::after {
-  content: "";
-  display: inline-block;
-  width: 16px;
-  height: 15px;
-  background-color: tomato;
-} */
-/* .form-input:checked {
-  width: 50px;
-  height: 50px;
-} */
 .worck-text {
   height: 294px;
   position: absolute;
