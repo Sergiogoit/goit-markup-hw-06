@@ -437,9 +437,9 @@ img {
 
 /* Вторая страница */
 /* Задает цвет заголовку */
-.main-title {
+/* .main-title {
   color: var(--main-txt-color);
-}
+} */
 .sub-title {
   font-size: 18px;
   line-height: 2;
@@ -456,7 +456,7 @@ img {
   line-height: 1.19;
   font-weight: 700;
   text-decoration: none;
-  display: flex;
+  /* display: flex; */
 }
 .studio {
   color: var(--logo-footer-color);
