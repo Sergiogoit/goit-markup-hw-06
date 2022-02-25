@@ -48,6 +48,7 @@ body {
 a {
   text-decoration: none;
   display: block;
+  display: grid;
 }
 .container {
   width: 1200px;
@@ -539,6 +540,7 @@ img {
 .card {
   padding-left: 24px;
   padding-bottom: 20px;
+  outline: 1px solid black;
 
   /* Установит стили нинжней рамки */
   border-bottom-width: 1px;
@@ -965,6 +967,7 @@ img {
   top: 0;
   left: 0;
   margin: 0;
+  outline: 1px solid black;
 }
 .label {
   display: flex;
